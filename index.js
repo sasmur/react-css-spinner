@@ -1,12 +1,12 @@
 import React from 'react';
 
-import css from 'Spinner.css'
+import css from './Spinner.css'
 
 const Spinner = () => {
   return (
-    <div className={css.root}>
-      <div className={css.spinnerFragment}></div>
-      <div className={css.spinnerFragment}></div>
+    <div className={css.rootSpinner}>
+      <div className={css.fragmentSpinner}></div>
+      <div className={css.fragmentSpinner}></div>
     </div>
   )
 };

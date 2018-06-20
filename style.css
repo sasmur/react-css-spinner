@@ -1,4 +1,4 @@
-.root{
+.rootSpinner{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -7,14 +7,14 @@
     margin-top: 40px;
 }
 
-div:first-of-type.spinnerFragment{
+div:first-of-type.fragmentSpinner{
     position:absolute;
     border-radius:50%;
     border:6px solid rgba(255,255,255,.5);
     width:40px;
     height:40px;
 }
-div:last-of-type.spinnerFragment{
+div:last-of-type.fragmentSpinner{
     position:absolute;
     border-radius:50%;
     border:6px solid transparent;
