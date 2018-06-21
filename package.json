@@ -1,6 +1,6 @@
 {
     "name": "react-css-spinner",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "description": "A simple React css spinner",
     "main": "./index.js",
     "license": "ISC",
