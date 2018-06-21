@@ -1,23 +1,38 @@
 {
-  "name": "react-css-spinner",
-  "version": "0.0.4",
-  "description": "A simple React css spinner",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sasmur/react-css-spinner.git"
-  },
-  "keywords": [
-    "react",
-    "spinner"
-  ],
-  "author": "Rasmus Seindal",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sasmur/react-css-spinner/issues"
-  },
-  "homepage": "https://github.com/sasmur/react-css-spinner#readme"
+    "name": "react-css-spinner",
+    "version": "0.0.4",
+    "description": "A simple React css spinner",
+    "main": "./index.js",
+    "license": "ISC",
+    "scripts": {
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sasmur/react-css-spinner.git"
+    },
+    "author": "Rasmus Seindal",
+    "bugs": {
+        "url": "https://github.com/sasmur/react-css-spinner/issues"
+    },
+    "homepage": "https://github.com/sasmur/react-css-spinner#readme",
+    "peerDependencies": {
+        "prop-types": "^15.6.0",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.21.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.16.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "path": "^0.12.7",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "webpack": "^4.5.0",
+        "webpack-cli": "^2.0.14",
+        "css-loader": "0.28.7",
+        "style-loader": "0.19.0"
+    }
 }
